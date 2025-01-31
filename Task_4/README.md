@@ -1,48 +1,43 @@
-# 🌐 Network Configuration Automation Task
+# 🌐 Automated Network Setup Task
 
-## 📜 Task Description
+## 📜 Overview
 
-As a system administrator at **MyComp**, it is your responsibility to configure the network interfaces on various servers. This process involves setting static IP addresses, configuring network interfaces, and applying DNS settings to ensure stable and secure network connectivity. To streamline this task, you need to develop a script that automates the configuration of network interfaces and applies the necessary settings.
+As a system administrator at **IzleeveTech**, ensuring seamless and secure network connectivity across multiple servers is a key responsibility. Manually setting up network interfaces, assigning static IPs, and configuring DNS can be time-consuming and prone to errors. To simplify this process, an automated script is needed to handle network configurations efficiently and consistently.
 
-## 🚀 Requirements
+## 🚀 Key Objectives
 
-### 1. **Configure Network Interfaces**:
-- The script should allow the configuration of various network interfaces (e.g., `eth0`, `eth1`).
+### 1. **Network Interface Setup**:
+- The script should support configuration for multiple interfaces (e.g., `eth0`, `eth1`).
 
-### 2. **Set Static IP Addresses**:
-- Users should be able to specify static IP addresses, subnet masks, and gateways for the selected network interfaces.
+### 2. **Assign Static IP Addresses**:
+- Users should be able to specify static IPs, subnet masks, and gateway addresses for chosen network interfaces.
 
-### 3. **Apply DNS Settings**:
-- Configure DNS servers by updating the `/etc/resolv.conf` file or other relevant configuration files to ensure proper name resolution.
+### 3. **DNS Configuration**:
+- The script must modify relevant system files (e.g., `/etc/resolv.conf`) to apply custom DNS settings for reliable name resolution.
 
-### 4. **Input Validation**:
-- Implement input validation to ensure that user inputs are correct and adhere to the required format for network configuration.
+### 4. **Input Verification**:
+- Implement validation checks to ensure all provided IPs, subnet masks, and gateway details adhere to standard networking formats.
 
-### 5. **Apply Configuration**:
-- Apply the network configuration changes and ensure they take effect immediately without needing a system restart.
+### 5. **Apply and Activate Settings**:
+- Network configurations should be applied dynamically without requiring a system reboot.
 
-## 🛠️ Implementation Steps
+## 🛠️ Implementation Guide
 
-1. **Create the Script**:
-   - Write a shell script that prompts users for the necessary information (interface name, static IP, subnet mask, gateway, and DNS servers).
+1. **Develop the Configuration Script**:
+   - Create a shell script that prompts for required network details (interface name, static IP, subnet mask, gateway, and DNS servers).
 
-2. **Validate Inputs**:
-   - Implement validation checks to ensure that the provided IP addresses and subnet masks are in the correct format.
+2. **Implement Input Validation**:
+   - Integrate validation mechanisms to reject improperly formatted IP addresses and other invalid inputs.
 
-3. **Configure Interfaces**:
-   - Use `nmcli` or appropriate commands to configure the network interfaces with the provided static IP addresses and gateways.
+3. **Apply Network Settings**:
+   - Utilize `nmcli` or equivalent commands to assign static IPs and configure network interfaces dynamically.
 
-4. **Update DNS Settings**:
-   - Modify the `/etc/resolv.conf` file or relevant configuration files to apply the specified DNS settings.
+4. **Modify DNS Settings**:
+   - Ensure DNS configurations are updated in the appropriate system files for accurate domain resolution.
 
-5. **Apply Changes**:
-   - Ensure that the changes take effect immediately by restarting the network service or using commands that apply the configuration dynamically.
+5. **Enforce Changes Without Reboots**:
+   - Apply new network settings immediately using appropriate system commands or services without restarting the machine.
 
-## 🎊 Conclusion
+## 🎊 Summary
 
-This automation script will significantly enhance efficiency in managing network configurations across multiple servers at **MyComp**. By reducing manual intervention, you can ensure consistent and error-free network setups, leading to improved network reliability.
-
-## 📬 Questions or Feedback?
-If you have any questions or require assistance with this task, please feel free to reach out! We are here to support you. 🤝
-
----
+This automation solution enhances the efficiency of network configurations across **IzleeveTech**’s infrastructure. By reducing manual intervention and ensuring consistency, this tool will improve network reliability and minimize errors in connectivity setup.
