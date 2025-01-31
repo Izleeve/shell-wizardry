@@ -2,7 +2,7 @@
 
 ## 📜 Task Description
 
-Welcome to the **User Account Creation** project! This initiative aims to automate the setup of user accounts for a batch of 100 new engineers joining **MyComp**. As a system administrator, your mission is to ensure these accounts are configured with the specified requirements.
+Welcome to the **User Account Creation** project! This initiative aims to automate the setup of user accounts for a batch of 100 new engineers joining **IzleeveTech**. As a system administrator, your mission is to ensure these accounts are configured with the specified requirements.
 
 ## 🚀 Requirements
 
@@ -47,10 +47,4 @@ Welcome to the **User Account Creation** project! This initiative aims to automa
 
 ## 🎊 Conclusion
 
-This task ensures that our new engineers are set up with secure and properly configured user accounts, making their onboarding experience smooth and efficient. Let's welcome them to **MyComp**! 🎉
-
-## 📬 Questions or Feedback?
-Feel free to reach out or open an issue if you have any questions! We're here to help. 🤝
-
----
-
+This task ensures that our new engineers are set up with secure and properly configured user accounts, making their onboarding experience smooth and efficient. Let's welcome them to **IzleeveTech**! 🎉
