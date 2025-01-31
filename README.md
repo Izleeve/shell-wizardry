@@ -31,7 +31,7 @@ Welcome, seeker of the terminal arts, to **Shell Wizardry**! Within this sacred 
 
 ### Summon the Repository from the Digital Realm
 ```bash
-git clone https://github.com/yourusername/shell-wizardry.git
+git clone https://github.com/Izleeve/shell-wizardry.git
 cd shell-wizardry
 ```
 
