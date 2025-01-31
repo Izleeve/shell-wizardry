@@ -2,7 +2,7 @@
 
 ## 📜 Overview
 
-As a system administrator at **MyComp**, keeping track of disk usage is crucial to maintaining server health and preventing storage issues. To ensure that space constraints never catch you off guard, you will implement an automated system that generates and delivers daily disk usage reports via email.
+As a system administrator at **IzleeveTech**, keeping track of disk usage is crucial to maintaining server health and preventing storage issues. To ensure that space constraints never catch you off guard, you will implement an automated system that generates and delivers daily disk usage reports via email.
 
 ## 🚀 Objectives
 
