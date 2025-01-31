@@ -1,47 +1,41 @@
-# 📊 Disk Usage Report Task
+# 📊 Disk Usage Monitoring Task
 
-## 📜 Task Description
+## 📜 Overview
 
-As a system administrator at **MyComp**, you are responsible for monitoring and maintaining the health of the company’s servers. To ensure that disk usage does not exceed critical levels and to keep an eye on storage consumption trends, you need to generate regular disk usage reports. These reports will be emailed to you daily.
+As a system administrator at **MyComp**, keeping track of disk usage is crucial to maintaining server health and preventing storage issues. To ensure that space constraints never catch you off guard, you will implement an automated system that generates and delivers daily disk usage reports via email.
 
-## 🚀 Requirements
+## 🚀 Objectives
 
-### 1. **Generate Disk Usage Report**:
-- The script should collect disk usage information for all mounted filesystems.
-- The report must include the following details:
+### 1. **Collect Disk Usage Data**:
+- The script should retrieve disk usage statistics for all mounted filesystems.
+- The report should include the following details:
   - Filesystem name
-  - Total size
-  - Used space
+  - Total storage capacity
+  - Space utilized
   - Available space
-  - Usage percentage
+  - Percentage of space used
 
 ### 2. **Email the Report**:
-- The report should be emailed to the system administrator (e.g., `admin@mycomp.com`) every day.
-- Ensure the email has a clear subject line and body, making it easy to identify and read the report.
+- The report should be automatically emailed to the system administrator (e.g., `admin@mycomp.com`) on a daily basis.
+- The email should have a clear subject line and a well-structured body for easy readability.
 
 ### 3. **Automate the Process**:
-- Set up the script to run daily using a cron job, ensuring regular monitoring without manual intervention.
+- The script should be scheduled to run daily using a cron job, eliminating the need for manual execution.
 
-## 🛠️ Implementation Steps
+## 🛠️ Implementation Guide
 
-1. **Create the Script**:
-   - Write a shell script that gathers the required disk usage information using the `df` command.
+1. **Develop the Script**:
+   - Write a shell script that extracts disk usage details using the `df` command.
 
 2. **Format the Report**:
-   - Structure the output in a clear and readable format to be included in the email.
+   - Ensure the output is structured in a clean and readable format for email delivery.
 
 3. **Send the Email**:
-   - Use the `sendmail` or `mail` command to send the report to the specified email address.
+   - Utilize `sendmail` or `mail` to automatically dispatch the report to the designated recipient.
 
-4. **Set Up a Cron Job**:
-   - Edit the crontab file to schedule the script to run daily at a specified time (e.g., 8 AM).
+4. **Schedule the Task**:
+   - Use `crontab` to configure the script to execute at a fixed time each day (e.g., 8 AM).
 
-## 🎊 Conclusion
+## 🎊 Key Takeaways
 
-This task ensures that disk usage on the servers is monitored effectively, helping prevent issues related to storage capacity. Regular reporting will provide valuable insights into usage trends, enabling proactive management.
-
-## 📬 Questions or Feedback?
-If you have any questions or feedback regarding this task, feel free to reach out! We're here to help. 🤝
-
----
-
+By implementing this automation, you will gain better visibility into disk usage trends, enabling proactive management of storage resources. This approach ensures servers remain efficient and prevents unexpected storage-related disruptions.
